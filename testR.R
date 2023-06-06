@@ -1,7 +1,6 @@
 # test 
 
 # comment on first branch
-
 library(ggplot2)
 library(dplyr)
 
@@ -18,4 +17,3 @@ df |> ggplot(aes(x = year, y = markup)) +
 
 # subset data
 df_sub = df |> dplyr::filter(markup > 1 & year > 2000)
-
