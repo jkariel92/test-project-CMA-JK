@@ -9,4 +9,6 @@ df = read.csv("test.csv")
 # comment on second branch
 
 df |> ggplot(aes(x = x, y = y)) +
-  geom_point(alpha = 0.3)
+  geom_point(alpha = 0.3) + 
+  xlab("Time") + 
+  ylab("Markup")
