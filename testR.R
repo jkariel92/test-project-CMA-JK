@@ -17,3 +17,6 @@ df |> ggplot(aes(x = x, y = y)) +
   geom_point(alpha = 0.3) + 
   xlab("Time") + 
   ylab("Markup")
+
+# Rajssa's comment
+# I don't know how to use R :)
