@@ -2,9 +2,13 @@
 
 # comment on first branch
 library(ggplot2)
+library(dplyr)
 
 # read in data
 df = read.csv("test.csv")
+
+# summarise data
+summary(df)
 
 # plot the data
 df |> ggplot(aes(x = year, y = markup)) +
@@ -20,3 +24,7 @@ df |> ggplot(aes(x = x, y = y)) +
 
 # Rajssa's comment
 # I don't know how to use R :)
+# I can do a Micro Unit course on it :)
+
+# subset data
+df_sub = df |> dplyr::filter(markup > 1 & year > 2000)
