@@ -1,0 +1,11 @@
+Resources/
+
+.Rhistory
+.Rapp.history
+
+.Rdata
+
+*.csv
+*.xlsx
+*.xls
+*.dta
